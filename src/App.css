@@ -1,0 +1,48 @@
+/* Google Poppins Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+/* Global Variables */
+:root {
+  /* Background Color */
+  --primary-color: #990033;
+  --secondary-color: #ffc2b4;
+  --primary-nav-color: #e21056;
+  --primary-bg: rgb(150 0 51/ 14%);
+  --font-color: #b7b7b7;
+  --bg-color: #171717;
+  --bg-dark-color: #0c0b0b;
+  --white-color: #fdfffc;
+  --green-color: #0abf5e;
+  --green-color-bg: (10 191 83 / 17%);
+  --blue-color: #6168ff;
+  --blue-color-bg: rgb(97 104 255 /9%);
+  --border-color-light: rgb(255, 255, 255, 0.2);
+  --box-shadow: 0 1rem 3rem rgb(0 0 0 /12%);
+  --dark-layer-color: linear-gradient(
+    to top,
+    rgb(21 21 21 /67%),
+    rgb(23 23 23 /17%)
+  );
+
+  /* Font Family */
+  --primary-font: "Poppins", sans-serif;
+}
+
+html,
+body {
+  font-size: 16px;
+  font-family: var(--primary-font);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 0.375rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--secondary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
